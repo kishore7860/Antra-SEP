@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  padding: 12px;
+}
+
+.tweet {
+  border: 1px solid #cfd9de;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 12px;
+  display: flex;
+  margin: 20px auto;
+  max-width: 600px
+}
+
+.thumbnail {
+    border-radius: 50%;
+    size: 48px;
+    margin-right: 12px;
+}
+
+.tweet-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.meta-row {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.name {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #000;
+    font-size: 15px;
+
+}
+
+.metadata {
+    color: #71767b;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.message {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #0f1419;
+    margin-bottom: 12px;
+}
+
+.actions-row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 425px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #536471;
+    size: 16px;
+}
+
+.action-count {
+    color: #536471;
+    font-size: 13px;
+}
